@@ -26,10 +26,10 @@ import { lazy, Suspense } from 'react';
 const Feeds = lazy(() => import('./pages/Feeds'));
 const PostDetails = lazy(() => import('./pages/PostDetails'));
 const Profile = lazy(() => import('./pages/Profile'));
-const Community = lazy(() => import('./pages/community'));
-const Bookmark = lazy(() => import('./pages/bookmark'));
-const Settings = lazy(() => import('./pages/settings'));
-const Notifications = lazy(() => import('./pages/notifications'));
+const Community = lazy(() => import('./pages/Community'));
+const Bookmark = lazy(() => import('./pages/Bookmark'));
+const Settings = lazy(() => import('./pages/Settings'));
+const Notifications = lazy(() => import('./pages/Notifications'));
 const SignIn = lazy(() => import('./pages/SignIn'));
 const SignUp = lazy(() => import('./pages/SignUp'));
 
